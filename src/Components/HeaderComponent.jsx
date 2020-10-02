@@ -1,6 +1,6 @@
 import React from 'react'
 import { Component } from 'react';
-import { Button, Nav, Container, Navbar, NavDropdown } from 'react-bootstrap'
+import { Button, Nav, Container, Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 
 class HeaderComponent extends Component {
@@ -21,7 +21,12 @@ class HeaderComponent extends Component {
                             <Nav className="ml-auto text-center">
 
                                 <div class="dropdown">
-                                    <Nav.Link class="dropbtn" style={{ color: "#195e83" }}>Company</Nav.Link>
+                                    <div class="box-1">
+                                        <div class="btn btn-one">
+                                            <span><Nav.Link class="dropbtn fill" style={{ color: "#195e83" }}>Company</Nav.Link></span>
+                                        </div>
+                                    </div>
+
                                     <div class="dropdown-content">
                                         <Link to="/">About Us</Link>
                                         <Link to="/">Vision/Mission/Values</Link>
@@ -31,9 +36,19 @@ class HeaderComponent extends Component {
                                     </div>
                                 </div>
 
+                                <div class="box-1">
+                                    <div class="btn btn-one">
+                                        <span>HOVER ME</span>
+                                    </div>
+                                </div>
                                 <Nav.Link to="/about" style={{ color: "#195e83" }}>Product Solutions</Nav.Link>
 
                                 <div class="dropdown">
+                                    <div class="box-1">
+                                        <div class="btn btn-one">
+                                            <span>HOVER ME</span>
+                                        </div>
+                                    </div>
                                     <Nav.Link class="dropbtn" style={{ color: "#195e83" }}>Careers</Nav.Link>
                                     <div class="dropdown-content">
                                         <Link to="/">Why TDC?</Link>
@@ -41,6 +56,11 @@ class HeaderComponent extends Component {
                                 </div>
 
                                 <div class="dropdown">
+                                    <div class="box-1">
+                                        <div class="btn btn-one">
+                                            <span>HOVER ME</span>
+                                        </div>
+                                    </div>
                                     <Nav.Link class="dropbtn" style={{ color: "#195e83" }}>Contact Us</Nav.Link>
                                     <div class="dropdown-content">
                                         <Link to="/">Head Office</Link>

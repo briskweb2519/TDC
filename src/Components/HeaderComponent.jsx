@@ -8,7 +8,7 @@ class HeaderComponent extends Component {
         return (
             <>
 
-                <Navbar sticky="top" style={{backgroundColor:"white"}} collapseOnHover expand="lg" >
+                <Navbar sticky="top" style={{backgroundColor:""}} collapseOnHover expand="lg" >
                     <Container>
                         <Navbar.Brand href="#home">TDC</Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -16,23 +16,23 @@ class HeaderComponent extends Component {
                             <Nav className="ml-auto" >
 
                                 <NavDropdown style={{ Color: "blue" }} className="btn-one" renderMenuOnMount={true} title="Company" id="collasible-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1">About Us</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2">Vision/Mission/Values</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.3">Quality Control</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.4">Director's Message/Our Founder</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.1">Affiliation</NavDropdown.Item>
+                                    <NavDropdown.Item ><Link className="nav-link" to="/company/aboutus">About Us</Link></NavDropdown.Item>
+                                    <NavDropdown.Item ><Link className="nav-link" to="/company/vision-mission-values">Vision/Mission/Values</Link></NavDropdown.Item>
+                                    <NavDropdown.Item ><Link className="nav-link" to="/company/quality-control">Quality Control</Link></NavDropdown.Item>
+                                    <NavDropdown.Item ><Link className="nav-link" to="/company/director-message">Director's Message/Our Founder</Link></NavDropdown.Item>
+                                    <NavDropdown.Item ><Link className="nav-link" to="/company/affiliation">Affiliation</Link></NavDropdown.Item>
                                 </NavDropdown>
 
-                                <Nav.Link className="btn-one" href="#pricing">Product Solutions</Nav.Link>
+                                <Link className="nav-link" to="/product-solutions">Product Sulutions</Link>
 
                                 <NavDropdown className="btn-one" renderMenuOnMount={true} title="Careers" id="collasible-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1">Why TDC?</NavDropdown.Item>
+                                <NavDropdown.Item ><Link className="nav-link" to="/careers/whytdc">Why TDC?</Link></NavDropdown.Item>
                                 </NavDropdown>
 
                                 <NavDropdown className="btn-one" renderMenuOnMount={true} title="Contact Us" id="collasible-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1">Head Office</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2">Manufacturing Unit</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.4">Enquiry Form</NavDropdown.Item>
+                                <NavDropdown.Item ><Link className="nav-link" to="/contact/headoffice">Head Office</Link></NavDropdown.Item>
+                                <NavDropdown.Item ><Link className="nav-link" to="/contact/manufacturing-unit">Manufacturing Unit</Link></NavDropdown.Item>
+                                <NavDropdown.Item ><Link className="nav-link" to="/contact/product-solutions">Enquiry Form</Link></NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
                         </Navbar.Collapse>

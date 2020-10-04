@@ -12,63 +12,61 @@ class ProductSolutionsComponent extends Component {
     render() {
         return (
             <>
-                <Container>
-                    <Image src={img} fluid className="mb-3" />
-                    <Row>
-                        <Col xs={12} md={6} className="mb-3">
-                            <Card className="frame">
-                                <Card.Img variant="top" src={img} />
-                                <Card.Body class="details">
-                                    <Card.Title>Card title</Card.Title>
-                                    <Card.Text>
-                                        This is a wider card with supporting text below as a natural lead-in to
-                                        additional content. This content is a little bit longer.
-                                </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col xs={12} md={6} className="mb-3">
-                            <Card className="frame">
-                                <Card.Img variant="top" src={img} />
-                                <Card.Body class="details">
-                                    <Card.Title>Card title</Card.Title>
-                                    <Card.Text>
-                                        This is a wider card with supporting text below as a natural lead-in to
-                                        additional content. This content is a little bit longer.
-                                </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                    </Row>
 
-                    <Row>
-                        <Col xs={12} md={6} className="mb-3">
-                            <Card className="frame">
-                                <Card.Img variant="top" src={img} />
-                                <Card.Body class="details">
-                                    <Card.Title>Card title</Card.Title>
-                                    <Card.Text>
-                                        This is a wider card with supporting text below as a natural lead-in to
-                                        additional content. This content is a little bit longer.
+                <Image src={img} fluid className="mb-3" />
+                <Row>
+                    <Col xs={12} md={6} className="mb-3">
+                        <Card className="frame">
+                            <Card.Img variant="top" src={img} />
+                            <Card.Body class="details">
+                                <Card.Title>Card title</Card.Title>
+                                <Card.Text>
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.
                                 </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col xs={12} md={6} className="mb-3">
-                            <Card className="frame">
-                                <Card.Img variant="top" src={img} />
-                                <Card.Body class="details">
-                                    <Card.Title>Card title</Card.Title>
-                                    <Card.Text>
-                                        This is a wider card with supporting text below as a natural lead-in to
-                                        additional content. This content is a little bit longer.
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col xs={12} md={6} className="mb-3">
+                        <Card className="frame">
+                            <Card.Img variant="top" src={img} />
+                            <Card.Body class="details">
+                                <Card.Title>Card title</Card.Title>
+                                <Card.Text>
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.
                                 </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                    </Row>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
 
-                </Container>
+                <Row>
+                    <Col xs={12} md={6} className="mb-3">
+                        <Card className="frame">
+                            <Card.Img variant="top" src={img} />
+                            <Card.Body class="details">
+                                <Card.Title>Card title</Card.Title>
+                                <Card.Text>
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col xs={12} md={6} className="mb-3">
+                        <Card className="frame">
+                            <Card.Img variant="top" src={img} />
+                            <Card.Body class="details">
+                                <Card.Title>Card title</Card.Title>
+                                <Card.Text>
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
             </>
         )
     }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Image from 'react-bootstrap/Image'
 import img from '../Images/69.jpg'
-
+import text from '../Images/text.jpg'
 import { Container } from 'react-bootstrap'
 import Card from 'react-bootstrap/Card'
 // import CardDeck from 'react-bootstrap/CardDeck'
@@ -13,59 +13,56 @@ class ProductSolutionsComponent extends Component {
         return (
             <>
 
-                <Image src={img} fluid className="mb-3" />
+                <Image src={img} fluid className="mb-3" style={{height:"400px",width:"100%"}}/>
                 <Row>
                     <Col xs={12} md={6} className="mb-3">
-                        <Card className="frame">
-                            <Card.Img variant="top" src={img} />
-                            <Card.Body class="details">
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This content is a little bit longer.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
+                        <div>
+                            <div class="hovereffect">
+                                <img class="img-responsive" src={text} alt="" />
+                                <div class="overlay">
+                                    <h2>Product</h2>
+                                    <a class="info" href="#">Explore</a>
+                                </div>
+                            </div>
+                        </div>
                     </Col>
                     <Col xs={12} md={6} className="mb-3">
-                        <Card className="frame">
-                            <Card.Img variant="top" src={img} />
-                            <Card.Body class="details">
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This content is a little bit longer.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
+                        <div>
+                            <div class="hovereffect">
+                            <img class="img-responsive" src={text} alt="" />
+                                <div class="overlay">
+                                    <h2>Product</h2>
+                                    <a class="info" href="#">Explore</a>
+                                </div>
+                            </div>
+                        </div>
                     </Col>
                 </Row>
 
                 <Row>
                     <Col xs={12} md={6} className="mb-3">
-                        <Card className="frame">
-                            <Card.Img variant="top" src={img} />
-                            <Card.Body class="details">
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This content is a little bit longer.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
+
+                        <div class="hovereffect">
+                        <img class="img-responsive" src={text} alt="" />
+                            <div class="overlay">
+                                <h2>Product</h2>
+                                <a class="info" href="#">Explore</a>
+                            </div>
+                        </div>
+
                     </Col>
                     <Col xs={12} md={6} className="mb-3">
-                        <Card className="frame">
-                            <Card.Img variant="top" src={img} />
-                            <Card.Body class="details">
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This content is a little bit longer.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
+                        <div >
+                            <div class="hovereffect">
+                            <img class="img-responsive" src={text} alt="" />
+                                <div class="overlay">
+                                    <h2>Product</h2>
+                                    <a class="info" href="#">Explore</a>
+                                </div>
+                            </div>
+                        </div>
                     </Col>
+
                 </Row>
             </>
         )

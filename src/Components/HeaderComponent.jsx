@@ -1,13 +1,13 @@
 import React from 'react'
 import { Component } from 'react';
-import { Button, Nav, Container, Navbar } from 'react-bootstrap'
+import { Nav, Container, Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 
 class HeaderComponent extends Component {
     render() {
         return (
             <>
-                <Navbar collapseOnSelect expand="lg" className="p-3">
+                <Navbar collapseOnSelect expand="lg" >
                     <Container>
                         <h3 style={{ color: "#195e83" }}>TDC</h3>
 
@@ -18,14 +18,14 @@ class HeaderComponent extends Component {
                         </Navbar.Toggle>
 
                         <Navbar.Collapse id="responsive-navbar-nav">
-                            <Nav className="ml-auto text-center">
+                            <Nav className="ml-auto text-center" >
 
                                 <div class="dropdown">
-                                    <div class="box-1">
-                                        <div class="btn btn-one">
-                                            <span><Nav.Link class="dropbtn fill" style={{ color: "#195e83" }}>Company</Nav.Link></span>
-                                        </div>
+
+                                    <div class="btn btn-one">
+                                        <span><Nav.Link class="dropbtn fill" style={{ color: "#195e83" }}>Company</Nav.Link></span>
                                     </div>
+
 
                                     <div class="dropdown-content">
                                         <Link to="/">About Us</Link>
@@ -36,32 +36,30 @@ class HeaderComponent extends Component {
                                     </div>
                                 </div>
 
-                                <div class="box-1">
-                                    <div class="btn btn-one">
-                                        <span>HOVER ME</span>
-                                    </div>
+
+                                <div class="btn btn-one">
+                                    <span><Nav.Link to="/about" style={{ color: "#195e83" }}>Product Solutions</Nav.Link></span>
                                 </div>
-                                <Nav.Link to="/about" style={{ color: "#195e83" }}>Product Solutions</Nav.Link>
+
+
 
                                 <div class="dropdown">
-                                    <div class="box-1">
-                                        <div class="btn btn-one">
-                                            <span>HOVER ME</span>
-                                        </div>
+
+                                    <div class="btn btn-one">
+                                        <span><Nav.Link class="dropbtn" style={{ color: "#195e83" }}>Careers</Nav.Link></span>
                                     </div>
-                                    <Nav.Link class="dropbtn" style={{ color: "#195e83" }}>Careers</Nav.Link>
+
                                     <div class="dropdown-content">
                                         <Link to="/">Why TDC?</Link>
                                     </div>
                                 </div>
 
                                 <div class="dropdown">
-                                    <div class="box-1">
-                                        <div class="btn btn-one">
-                                            <span>HOVER ME</span>
-                                        </div>
+
+                                    <div class="btn btn-one">
+                                        <span><Nav.Link class="dropbtn" style={{ color: "#195e83" }}>Contact Us</Nav.Link></span>
                                     </div>
-                                    <Nav.Link class="dropbtn" style={{ color: "#195e83" }}>Contact Us</Nav.Link>
+
                                     <div class="dropdown-content">
                                         <Link to="/">Head Office</Link>
                                         <Link to="/">Manufacturing Unit</Link>

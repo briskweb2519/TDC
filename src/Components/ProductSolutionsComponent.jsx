@@ -14,6 +14,11 @@ class ProductSolutionsComponent extends Component {
             <>
 
                 <Image src={img} fluid className="mb-3" style={{height:"400px",width:"100%"}}/>
+                
+                <Container>
+                <div className="mb-3 ">
+                    <h3>Product Solutions</h3>
+                </div>
                 <Row>
                     <Col xs={12} md={6} className="mb-3">
                         <div>
@@ -64,6 +69,7 @@ class ProductSolutionsComponent extends Component {
                     </Col>
 
                 </Row>
+                </Container>
             </>
         )
     }

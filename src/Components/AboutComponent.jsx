@@ -12,8 +12,8 @@ class AboutComponent extends Component{
                  <Container style={{marginTop:'2%'}}>
                  <span style = {{fontFamily:'first',color:'#195e83',fontSize:'30pt'}}>About the company</span><br/><br/>
 
-                <Row>
-                    <Col xs = {12} md ={6}>
+                <Row >
+                    <Col xs = {12} md ={6} style={{paddingTop:'2%'}}>
                         <div class='about' style = {{fontSize:'12pt',lineHeight:'120%'}}>
                         <br/>
                         Established in 1992, <br/>
@@ -22,7 +22,7 @@ class AboutComponent extends Component{
                         Located in Gujarat, India, the company operates a highly unified, customer oriented platform that delievers specialised performance and color solutions in and across the country
                         </div>
                     </Col>
-                    <Col xs = {12} md ={6}>
+                    <Col xs = {12} md ={6} style={{paddingTop:'2%'}}>
                         <img src={Company} alt="company" width='100%'/> 
                     </Col>
                 </Row>

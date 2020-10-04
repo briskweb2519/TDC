@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'first';
+    src: local('first'), url('./Fonts/BentonSans Comp Bold.woff') format('woff');
+}
+
+@font-face{
+    font-family: 'second';
+    src: local('second'), url('./Fonts/BentonSans Book.woff') format('woff');
+}
+@font-face{
+    font-family: 'third';
+    src: local('third'), url('./Fonts/BentonSans Bold.woff') format('woff');
+}
+
+.about{
+    font-family: 'second';
+}
+
 .dropbtn {
     background-color: #4CAF50;
     color: white;

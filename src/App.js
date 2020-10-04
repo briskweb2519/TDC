@@ -9,8 +9,8 @@ function App() {
             <Router>
                 <HeaderComponent />
                 <Switch>
-                    {/* <AboutComponent/> */}
-                    <ProductSolutionsComponent />
+                    <AboutComponent/>
+                    {/* <ProductSolutionsComponent /> */}
                 </Switch>
             </Router>
         </div>

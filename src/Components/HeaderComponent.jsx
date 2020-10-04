@@ -10,7 +10,7 @@ class HeaderComponent extends Component {
 
                 <Navbar sticky="top" style={{backgroundColor:""}} collapseOnHover expand="lg" >
                     <Container>
-                        <Navbar.Brand href="#home">TDC</Navbar.Brand>
+                        <Navbar.Brand href="/">TDC</Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="ml-auto" >
@@ -23,7 +23,7 @@ class HeaderComponent extends Component {
                                     <NavDropdown.Item ><Link className="nav-link" to="/company/affiliation">Affiliation</Link></NavDropdown.Item>
                                 </NavDropdown>
 
-                                <Link className="nav-link" to="/product-solutions">Product Sulutions</Link>
+                                <Link className="nav-link btn-one" to="/product-solutions">Product Sulutions</Link>
 
                                 <NavDropdown className="btn-one" renderMenuOnMount={true} title="Careers" id="collasible-nav-dropdown">
                                 <NavDropdown.Item ><Link className="nav-link" to="/careers/whytdc">Why TDC?</Link></NavDropdown.Item>

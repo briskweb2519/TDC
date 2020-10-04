@@ -7,7 +7,7 @@ class HeaderComponent extends Component {
     render() {
         return (
             <>
-                <Navbar collapseOnSelect expand="lg" >
+                <Navbar sticky="top" collapseOnSelect expand="lg" style={{backgroundColor:"white"}}>
                     <Container>
                         <h3 style={{ color: "#195e83" }}>TDC</h3>
 
